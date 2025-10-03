@@ -101,7 +101,10 @@ header .icons img {
   z-index: 6;
   box-shadow: 3px 3px 50px #000000;
 }
-
+.top-container .div1-priority {
+  display: flex;
+  align-items: center;
+}
 .top-container .ul1 {
   display: flex;
   justify-content: space-between;
@@ -334,8 +337,8 @@ header .icons img {
 }
 
 .sec1 .four_icons .grouping4 .card .heart img {
-  width: 23px;
-  height: 23px;
+  width: 26px;
+  height: 26px;
   animation: ani 0.5 ease;
 }
 
@@ -846,11 +849,56 @@ footer .div5 .social-icons a img:hover {
     transform: translateY(0);
     visibility: visible;
   }
+  .top-container {
+    padding: 17px;
+  }
+  .top-container .div1-priority {
+    font-size: 17px;
+  }
+  body #big_container {
+    padding: 70px 50px;
+  }
+  .container1 .div2 {
+    padding: 130px 0px 130px 110px;
+  }
+  header .icons {
+    gap: 40px;
+  }
+  header .icons img {
+    width: 50px;
+    height: 50px;
+  }
+  .sec1 .four_icons .grouping4 .card .collect a {
+    width: 95px;
+    padding: 12px 0px;
+    font-size: 15px;
+  }
+  .sec1 .four_icons .grouping4 .card .heart img {
+    width: 26px;
+    height: 26px;
+  }
 }
+/* ------------------------------------------------- */
 
 @media (max-width: 512px) {
   .sec2 .grouping .cards .card {
     min-width: 300px;
+  }
+  .top-container {
+    padding: 11px;
+  }
+  body #big_container {
+    padding: 50px 30px;
+  }
+  .container1 .div2 {
+    padding: 90px 0px 90px 90px;
+  }
+  header .icons {
+    gap: 20px;
+  }
+  header .icons img {
+    width: 40px;
+    height: 40px;
   }
 }
 @media (max-width: 453px) {
@@ -870,9 +918,27 @@ footer .div5 .social-icons a img:hover {
   .container1 .div2 {
     padding-left: 80px;
   }
-}
-@media (max-width: 376px) {
+  .top-container {
+    padding: 9px;
+  }
+  body #big_container {
+    padding: 45px 25px;
+  }
+  header .container1 .div2 .collect {
+    font-size: 16px;
+  }
+  header .container1 .div2 .collect #word-space {
+    width: 100px;
+    font-size: 15px;
+  }
   .container1 .div2 {
-    padding-left: 80px;
+    padding: 80px 0px 80px 80px;
+  }
+  header .icons {
+    gap: 15px;
+  }
+  header .icons img {
+    width: 30px;
+    height: 30px;
   }
 }
